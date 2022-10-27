@@ -1,4 +1,3 @@
-import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
@@ -6,7 +5,7 @@ const Untitled1 = ({
   navigation
 }) => {
   return <View style={_styles.dldcfKgN}>
-      <Pressable onPress={() => navigation.navigate("Untitled2")} style={_styles.GcxkKuNS}><View style={_styles.BaakNNXU}></View></Pressable></View>;
+      <View style={_styles.BaakNNXU}></View></View>;
 };
 
 export default Untitled1;
